@@ -95,7 +95,7 @@ const encryptMessage = async (text: string, sessionKey: CryptoKey) => {
 const decryptMessage = async (encryptedData: ArrayBuffer, iv: Uint8Array, sessionKey: CryptoKey) => {
     try {
         const decrypted = await window.crypto.subtle.decrypt(
-            { name: "AES-GCM", iv: iv },
+            { name: "AES-GCM", iv: iv as BufferSource },
             sessionKey,
             encryptedData
         );
