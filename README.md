@@ -3,10 +3,11 @@
 A browser-based simulation demonstrating how secure messaging 
 applications function with React. This project implements uses hybrid encryption entirely in the 
 client-side browser using Next.js, React, and the native [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
+
 ---
 
 [![Source Code](https://img.shields.io/badge/source-github-blue)](https://github.com/lpj-app/encrypted-webchat-poc)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 20](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://img.shields.io/badge/license-Apache%20License%202.0-blue)
 
 [![Made with Next.js](https://img.shields.io/badge/Made%20with-Next.js-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-blue?logo=react)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)](https://www.typescriptlang.org/)
 
@@ -202,4 +203,4 @@ See [LICENSE](./LICENSE).
 
 --- 
 
-&copy; [lpj.app](https://github.com/lpj-app). Licensed under MIT. UI redesigned by [Gemini](https://gemini.google.com)
+&copy; [lpj.app](https://github.com/lpj-app). Licensed under Apache 2.0. UI redesigned by [Gemini](https://gemini.google.com)
