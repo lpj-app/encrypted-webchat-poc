@@ -4,7 +4,6 @@
   "author": "Luca-Pascal Junge",
   "license": "MIT",
   "description": "Simple web and react based hybrid encrypted webchat poc",
-  
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -14,7 +13,7 @@
   },
   "dependencies": {
     "lucide-react": "^0.555.0",
-    "next": "16.0.5",
+    "next": "^16.0.7",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
